@@ -1,10 +1,10 @@
-#mongoose-request-context
+# mongoose-request-context
 
 A simple mongoose plugin for automaticaly saving context related information in a document. For instance you would like to
 save the name of the logged in user when changes are made to documents.
 This plugin uses the [request-context](https://www.npmjs.com/package/request-context) module for accessing the domain data.
 
-##Usage
+## Usage
 
 Set a context in any middleware:
 ```js
@@ -35,7 +35,7 @@ Game.plugin(contextPlugin, {
 });
 ```
 
-##Options
+## Options
 
 - `contextPath` - A context path that will be read from the active context
 

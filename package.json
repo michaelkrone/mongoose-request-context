@@ -1,6 +1,6 @@
 {
   "name": "mongoose-request-context",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple plugin for saving data from a (connect/express) request context.",
   "keywords": [
     "mongoose",
