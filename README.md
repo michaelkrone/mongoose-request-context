@@ -20,7 +20,8 @@ app.use(function (req, res, next) {
 });
 ```
 
-Add the context plugin and provide the path to save in the models schema definition:
+Add the context plugin and provide the path to save in the models schema definition. The provided property
+will be set in a pre save hook.
 ```js
 var contextPlugin = require('mongoose-request-context');
 
