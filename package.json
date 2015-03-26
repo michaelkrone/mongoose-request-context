@@ -19,7 +19,7 @@
   "dependencies": {
     "request-context": "^0.1.2",
     "lodash": "^3.0.0",
-    "mongoose": "^3.8.0"
+    "mongoose": "^4.0.0"
   },
   "license": "ISC"
 }
